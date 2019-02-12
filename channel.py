@@ -12,11 +12,8 @@ class Channel(Frame):
 		Frame.__init__(self, parent)
 		self.channel_name = corpus.name
 		self.channel_num = num
-<<<<<<< Updated upstream
 		self.mode = 'letterlabel'
-=======
 		self.mode = 'shift'
->>>>>>> Stashed changes
 		self.num_options = 15
 		self.settings = {'color': 'black'}
 		self.parent = parent
